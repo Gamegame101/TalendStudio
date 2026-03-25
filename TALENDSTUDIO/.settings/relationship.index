@@ -1,1 +1,24 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_PtcnQCepEfGzA9GAt26L9A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_6Ej90CepEfGzA9GAt26L9A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_6chcUCghEfGhE4D8ML6zoQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_6Ej90CepEfGzA9GAt26L9A - etl_errors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_6chcUCghEfGhE4D8ML6zoQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
