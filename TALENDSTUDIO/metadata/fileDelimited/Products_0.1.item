@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_nmv-oChtEfG_eP-dMEt4VA" name="Products" id="_nmrtMChtEfG_eP-dMEt4VA" dataPackage="_nmv-oShtEfG_eP-dMEt4VA" Server="Localhost 127.0.0.1" FilePath="/Users/gamesupa/Free/talend job/data/input/products.csv" Format="MAC" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorType="Custom String" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_nmv-oShtEfG_eP-dMEt4VA" name="default" dataManager="_nmv-oChtEfG_eP-dMEt4VA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_nmv-oihtEfG_eP-dMEt4VA" id="_dwbZwChtEfG_eP-dMEt4VA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nmv-oyhtEfG_eP-dMEt4VA" label="Column0" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nmv-pChtEfG_eP-dMEt4VA" label="Column1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
