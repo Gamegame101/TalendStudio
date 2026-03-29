@@ -292,7 +292,7 @@
         <mapperTableEntries name="state_code" expression="StringHandling.UPCASE(row1.State)" type="id_String" nullable="true"/>
         <mapperTableEntries name="etl_load_ts" expression="Var.etl_load_ts " type="id_Date"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="etl_errors">
+      <outputTables sizeState="INTERMEDIATE" name="etl_errors" activateCondensedTool="true" reject="true" rejectInnerJoin="true">
         <mapperTableEntries name="error_id" expression="Numeric.sequence(&quot;cust_seq&quot;, 1, 1)" type="id_Integer"/>
         <mapperTableEntries name="source_job" expression="&quot;J_LOAD_CUSTOMERS&quot;" type="id_String"/>
         <mapperTableEntries name="error_type" expression="&quot;VALIDATION_ERROR&quot;" type="id_String"/>
