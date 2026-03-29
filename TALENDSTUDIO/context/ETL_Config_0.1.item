@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_t8ITcCt6EfG_eP-dMEt4VA" confirmationNeeded="false" hide="false" name="Dev">
+    <contextParameter xmi:id="_t8ITcSt6EfG_eP-dMEt4VA" comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J_PARENT_DAILY_LOAD"/>
+    <contextParameter xmi:id="_t8ITcit6EfG_eP-dMEt4VA" comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMddHHmmss"/>
+    <contextParameter xmi:id="_t8ITcyt6EfG_eP-dMEt4VA" comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="50"/>
+    <contextParameter xmi:id="_t8ITdCt6EfG_eP-dMEt4VA" comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5000"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_t8ITdSt6EfG_eP-dMEt4VA" confirmationNeeded="false" hide="false" name="Prod">
+    <contextParameter xmi:id="_t8ITdit6EfG_eP-dMEt4VA" comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J_PARENT_DAILY_LOAD"/>
+    <contextParameter xmi:id="_t8ITdyt6EfG_eP-dMEt4VA" comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMddHHmmss"/>
+    <contextParameter xmi:id="_t8ITeCt6EfG_eP-dMEt4VA" comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="20"/>
+    <contextParameter xmi:id="_t8ITeSt6EfG_eP-dMEt4VA" comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&#x9;10000"/>
+  </talendfile:ContextType>
+</xmi:XMI>

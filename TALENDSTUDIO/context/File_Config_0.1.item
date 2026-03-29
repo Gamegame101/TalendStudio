@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_e49PMCt6EfG_eP-dMEt4VA" confirmationNeeded="false" hide="false" name="Dev">
+    <contextParameter xmi:id="_e49PMSt6EfG_eP-dMEt4VA" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/data/input/"/>
+    <contextParameter xmi:id="_e49PMit6EfG_eP-dMEt4VA" comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customers.csv"/>
+    <contextParameter xmi:id="_e49PMyt6EfG_eP-dMEt4VA" comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&#x9;products.csv"/>
+    <contextParameter xmi:id="_e49PNCt6EfG_eP-dMEt4VA" comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sales_"/>
+    <contextParameter xmi:id="_e49PNSt6EfG_eP-dMEt4VA" comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMdd"/>
+    <contextParameter xmi:id="_e49PNit6EfG_eP-dMEt4VA" comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_e49PNyt6EfG_eP-dMEt4VA" confirmationNeeded="false" hide="false" name="Prod">
+    <contextParameter xmi:id="_e49POCt6EfG_eP-dMEt4VA" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/mnt/etl/input/"/>
+    <contextParameter xmi:id="_e49POSt6EfG_eP-dMEt4VA" comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customers.csv"/>
+    <contextParameter xmi:id="_e49POit6EfG_eP-dMEt4VA" comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="products.csv"/>
+    <contextParameter xmi:id="_e49POyt6EfG_eP-dMEt4VA" comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sales_"/>
+    <contextParameter xmi:id="_e49PPCt6EfG_eP-dMEt4VA" comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMdd"/>
+    <contextParameter xmi:id="_e49PPSt6EfG_eP-dMEt4VA" comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+  </talendfile:ContextType>
+</xmi:XMI>
