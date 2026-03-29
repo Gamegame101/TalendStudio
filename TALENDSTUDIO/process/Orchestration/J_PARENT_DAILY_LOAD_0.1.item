@@ -182,7 +182,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="280" sizeX="41" sizeY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.err.println(&quot;Job failed: &quot; + errorMessage);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.err.println(&quot;Job failed: &quot; + ((String)globalMap.get(&quot;errorMessage&quot;)));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TECHNICAL" name="NOT_SYNCHRONIZED_SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="NOT_SYNCHRONIZED_SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6Ej90CepEfGzA9GAt26L9A - etl_job_log" show="false"/>
