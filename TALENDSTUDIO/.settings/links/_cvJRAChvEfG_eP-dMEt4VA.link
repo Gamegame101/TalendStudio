@@ -1,0 +1,118 @@
+{
+  "itemId" : "_cvJRAChvEfG_eP-dMEt4VA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_t76RACt6EfG_eP-dMEt4VA",
+    "parameterList" : [ {
+      "id" : "_t8ITcit6EfG_eP-dMEt4VA",
+      "name" : "batch_id_format"
+    }, {
+      "id" : "_t8ITdCt6EfG_eP-dMEt4VA",
+      "name" : "commit_size"
+    }, {
+      "id" : "_t8ITcyt6EfG_eP-dMEt4VA",
+      "name" : "error_threshold"
+    }, {
+      "id" : "_t8ITcSt6EfG_eP-dMEt4VA",
+      "name" : "job_name"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_e4hKUCt6EfG_eP-dMEt4VA",
+    "parameterList" : [ {
+      "id" : "_e49PMit6EfG_eP-dMEt4VA",
+      "name" : "customers_file"
+    }, {
+      "id" : "_e49PNit6EfG_eP-dMEt4VA",
+      "name" : "file_encoding"
+    }, {
+      "id" : "_e49PMSt6EfG_eP-dMEt4VA",
+      "name" : "input_dir"
+    }, {
+      "id" : "_e49PMyt6EfG_eP-dMEt4VA",
+      "name" : "products_file"
+    }, {
+      "id" : "_e49PNSt6EfG_eP-dMEt4VA",
+      "name" : "sales_file_date_format"
+    }, {
+      "id" : "_e49PNCt6EfG_eP-dMEt4VA",
+      "name" : "sales_file_prefix"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_t76RACt6EfG_eP-dMEt4VA",
+    "parameterList" : [ {
+      "id" : "_t8ITdyt6EfG_eP-dMEt4VA",
+      "name" : "batch_id_format"
+    }, {
+      "id" : "_t8ITeSt6EfG_eP-dMEt4VA",
+      "name" : "commit_size"
+    }, {
+      "id" : "_t8ITeCt6EfG_eP-dMEt4VA",
+      "name" : "error_threshold"
+    }, {
+      "id" : "_t8ITdit6EfG_eP-dMEt4VA",
+      "name" : "job_name"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_e4hKUCt6EfG_eP-dMEt4VA",
+    "parameterList" : [ {
+      "id" : "_e49POSt6EfG_eP-dMEt4VA",
+      "name" : "customers_file"
+    }, {
+      "id" : "_e49PPSt6EfG_eP-dMEt4VA",
+      "name" : "file_encoding"
+    }, {
+      "id" : "_e49POCt6EfG_eP-dMEt4VA",
+      "name" : "input_dir"
+    }, {
+      "id" : "_e49POit6EfG_eP-dMEt4VA",
+      "name" : "products_file"
+    }, {
+      "id" : "_e49PPCt6EfG_eP-dMEt4VA",
+      "name" : "sales_file_date_format"
+    }, {
+      "id" : "_e49POyt6EfG_eP-dMEt4VA",
+      "name" : "sales_file_prefix"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_t76RACt6EfG_eP-dMEt4VA",
+    "parameterList" : [ {
+      "id" : "_t8ITcit6EfG_eP-dMEt4VA",
+      "name" : "batch_id_format"
+    }, {
+      "id" : "_t8ITdCt6EfG_eP-dMEt4VA",
+      "name" : "commit_size"
+    }, {
+      "id" : "_t8ITcyt6EfG_eP-dMEt4VA",
+      "name" : "error_threshold"
+    }, {
+      "id" : "_t8ITcSt6EfG_eP-dMEt4VA",
+      "name" : "job_name"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_e4hKUCt6EfG_eP-dMEt4VA",
+    "parameterList" : [ {
+      "id" : "_e49PMit6EfG_eP-dMEt4VA",
+      "name" : "customers_file"
+    }, {
+      "id" : "_e49PNit6EfG_eP-dMEt4VA",
+      "name" : "file_encoding"
+    }, {
+      "id" : "_e49PMSt6EfG_eP-dMEt4VA",
+      "name" : "input_dir"
+    }, {
+      "id" : "_e49PMyt6EfG_eP-dMEt4VA",
+      "name" : "products_file"
+    }, {
+      "id" : "_e49PNSt6EfG_eP-dMEt4VA",
+      "name" : "sales_file_date_format"
+    }, {
+      "id" : "_e49PNCt6EfG_eP-dMEt4VA",
+      "name" : "sales_file_prefix"
+    } ]
+  } ]
+}
