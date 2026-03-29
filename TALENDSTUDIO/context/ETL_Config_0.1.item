@@ -9,7 +9,7 @@
   <talendfile:ContextType xmi:id="_t8ITdSt6EfG_eP-dMEt4VA" confirmationNeeded="false" hide="false" name="Prod">
     <contextParameter xmi:id="_t8ITdit6EfG_eP-dMEt4VA" comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J_PARENT_DAILY_LOAD"/>
     <contextParameter xmi:id="_t8ITdyt6EfG_eP-dMEt4VA" comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMddHHmmss"/>
-    <contextParameter xmi:id="_t8ITeCt6EfG_eP-dMEt4VA" comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_t8ITeCt6EfG_eP-dMEt4VA" comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="20"/>
     <contextParameter xmi:id="_t8ITeSt6EfG_eP-dMEt4VA" comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="10000"/>
   </talendfile:ContextType>
 </xmi:XMI>
