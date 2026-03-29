@@ -8,20 +8,20 @@
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_OVuQ9Ct7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_OVuQ9St7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_qwV3cCt7EfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="&#x9;10000" internalId="_qwV3cSt7EfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="20" internalId="_qwV3cit7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="10000" internalId="_qwV3cSt7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="" internalId="_qwV3cit7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_qwV3cyt7EfG_eP-dMEt4VA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Dev">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="/data/input/" internalId="_OVuQ9it7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="input" internalId="_OVuQ9it7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_OVuQ9yt7EfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&#x9;products.csv" internalId="_OVuQ-Ct7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_OVuQ-Ct7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_OVuQ-St7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_OVuQ-it7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_OVuQ-yt7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_qwV3dCt7EfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="5000" internalId="_qwV3dSt7EfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="50" internalId="_qwV3dit7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="5000" internalId="_qwV3dSt7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="50" internalId="_qwV3dit7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_qwV3dyt7EfG_eP-dMEt4VA"/>
   </context>
   <parameters>
@@ -708,8 +708,8 @@
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
