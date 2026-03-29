@@ -306,7 +306,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="fact_sales" expressionFilter="row1.CustomerName != null &amp;&amp; !row1.CustomerName.trim().isEmpty()" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="fact_sales" expressionFilter="row1.CustomerName != null &amp;&amp; !row1.CustomerName.trim().isEmpty() &amp;&amp; lookupProducts.product_name != null" activateExpressionFilter="true">
         <mapperTableEntries name="sale_id" expression="Numeric.sequence(&quot;cust_seq&quot;, 1, 1)" type="id_Integer"/>
         <mapperTableEntries name="source_id" expression="row1.id " type="id_Integer"/>
         <mapperTableEntries name="customer_name" expression="StringHandling.TRIM(row1.CustomerName)" type="id_String"/>
