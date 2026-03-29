@@ -7,6 +7,7 @@
     <contextParameter xmi:id="_e49PNCt6EfG_eP-dMEt4VA" comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sales_"/>
     <contextParameter xmi:id="_e49PNSt6EfG_eP-dMEt4VA" comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMdd"/>
     <contextParameter xmi:id="_e49PNit6EfG_eP-dMEt4VA" comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_GR3m4CuJEfG_eP-dMEt4VA" comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sales_20260324.txt"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_e49PNyt6EfG_eP-dMEt4VA" confirmationNeeded="false" hide="false" name="Prod">
     <contextParameter xmi:id="_e49POCt6EfG_eP-dMEt4VA" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/"/>
@@ -15,5 +16,6 @@
     <contextParameter xmi:id="_e49POyt6EfG_eP-dMEt4VA" comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sales_"/>
     <contextParameter xmi:id="_e49PPCt6EfG_eP-dMEt4VA" comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMdd"/>
     <contextParameter xmi:id="_e49PPSt6EfG_eP-dMEt4VA" comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_GR3m4SuJEfG_eP-dMEt4VA" comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sales_20260324.txt"/>
   </talendfile:ContextType>
 </xmi:XMI>
