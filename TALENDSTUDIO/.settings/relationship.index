@@ -83,10 +83,6 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_6Ej90CepEfGzA9GAt26L9A - fact_sales",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_G6BiYChwEfG_eP-dMEt4VA - metadata",
     "version" : "Latest",
     "type" : "schema"
