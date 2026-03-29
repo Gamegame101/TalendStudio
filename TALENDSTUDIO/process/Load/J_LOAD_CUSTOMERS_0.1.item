@@ -7,7 +7,7 @@
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_rTnfcyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_rToGgCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_rToGgSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_rToGgiuCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_rToGgiuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_rToGgyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_rToGhCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_rToGhSuCEfG_eP-dMEt4VA"/>
@@ -31,7 +31,7 @@
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_rToGkyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_rToGlCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_rToGlSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_rToGliuCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_rToGliuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_rToGlyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_rToGmCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_rToGmSuCEfG_eP-dMEt4VA"/>
@@ -136,14 +136,12 @@
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_6chcUCghEfGhE4D8ML6zoQ" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6chcUCghEfGhE4D8ML6zoQ - metadata" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/gamesupa/Free/talend job/data/input/customers.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.input_dir + context.customers_file"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r&quot;" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\r&quot;"/>

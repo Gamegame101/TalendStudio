@@ -17,10 +17,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_6chcUCghEfGhE4D8ML6zoQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_6Ej90CepEfGzA9GAt26L9A - etl_errors",
     "version" : "Latest",
     "type" : "schema"
@@ -48,10 +44,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_KHeyUChvEfG_eP-dMEt4VA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_6Ej90CepEfGzA9GAt26L9A - dim_products",
     "version" : "Latest",
     "type" : "schema"
@@ -76,10 +68,6 @@
     "type" : "context"
   }, {
     "id" : "_6Ej90CepEfGzA9GAt26L9A",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_G6BiYChwEfG_eP-dMEt4VA",
     "version" : "Latest",
     "type" : "property"
   }, {

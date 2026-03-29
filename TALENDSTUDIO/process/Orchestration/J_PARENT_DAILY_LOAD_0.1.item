@@ -13,7 +13,7 @@
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_qwV3cyt7EfG_eP-dMEt4VA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Dev">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_OVuQ9it7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_OVuQ9it7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_OVuQ9yt7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_OVuQ-Ct7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_OVuQ-St7EfG_eP-dMEt4VA"/>
