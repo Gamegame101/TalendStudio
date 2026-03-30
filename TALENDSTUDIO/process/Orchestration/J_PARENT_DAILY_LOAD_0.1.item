@@ -11,6 +11,8 @@
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_mNo09ywCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_mNo0-CwCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_mNo0-SwCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="tmp" prompt="tmp?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="/tmp/" internalId="_i1aNgCwFEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_i1aNgSwFEfG_eP-dMEt4VA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Dev">
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_mNo0-iwCEfG_eP-dMEt4VA"/>
@@ -23,6 +25,8 @@
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_mNo1ASwCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_mNo1AiwCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_mNo1AywCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="tmp" prompt="tmp?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="/tmp/" internalId="_i1aNgiwFEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_i1aNgywFEfG_eP-dMEt4VA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
