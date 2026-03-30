@@ -7,24 +7,11 @@
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_rTnfcyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_rToGgCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_rToGgSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_rToGgiuCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_rToGgiuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_rToGgyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_rToGhCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_rToGhSuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_LQYIQCuJEfG_eP-dMEt4VA"/>
-  </context>
-  <context confirmationNeeded="false" hide="false" name="Prod">
-    <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_rToGhiuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="10000" internalId="_rToGhyuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="20" internalId="_rToGiCuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_rToGiSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_rToGiiuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_rToGiyuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_rToGjCuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_rToGjSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_rToGjiuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_rToGjyuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_LQYIQSuJEfG_eP-dMEt4VA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Dev">
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_rToGkCuCEfG_eP-dMEt4VA"/>
@@ -33,11 +20,24 @@
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_rToGkyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_rToGlCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_rToGlSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_rToGliuCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_rToGliuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_rToGlyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_rToGmCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_rToGmSuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_LQYIQiuJEfG_eP-dMEt4VA"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Dev2">
+    <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_ucJysCv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="5000" internalId="_ucJysSv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="50" internalId="_ucJysiv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_ucJysyv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_ucJytCv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_ucJytSv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_ucJytiv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_ucJytyv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_ucJyuCv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_ucJyuSv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_ucJyuiv7EfG_eP-dMEt4VA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -277,7 +277,7 @@
       <additionalProperties key="Comment" value="All validation failures from ETL jobs with error details"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="customer_id" expression="Numeric.sequence(&quot;cust_seq&quot;, 1, 1)" type="id_Integer"/>
         <mapperTableEntries name="etl_load_ts" expression="TalendDate.getCurrentDate()" type="id_Date"/>
