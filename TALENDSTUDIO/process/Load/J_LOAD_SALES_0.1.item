@@ -302,7 +302,7 @@
       <additionalProperties key="Comment" value="All validation failures from ETL jobs with error details"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="fact_sales" expressionFilter="row1.CustomerName != null &amp;&amp; !row1.CustomerName.trim().isEmpty() &amp;&amp; lookupProducts.product_name != null" activateExpressionFilter="true">
         <mapperTableEntries name="sale_id" expression="" type="id_Integer"/>
@@ -881,12 +881,12 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
-    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
-    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
       <elementValue elementRef="SCHEMA_COLUMN" value="state_code" id="0"/>
-      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="UPDATE_KEY" value="true" id="1"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="3"/>
       <elementValue elementRef="INSERTABLE" value="true" id="4"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="total_sales" id="5"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
