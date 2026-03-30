@@ -7,11 +7,12 @@
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_vqziIyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_vqziJCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_vqziJSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/&quot;" internalId="_vqziJiuCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_vqziJiuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_vqziJyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_vqziKCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_vqziKSuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_KZKzcCuJEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="tmp" prompt="tmp?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="/tmp/" internalId="_tDHUcCwBEfG_eP-dMEt4VA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Dev">
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_vqziNCuCEfG_eP-dMEt4VA"/>
@@ -20,24 +21,26 @@
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_vqziNyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_vqziOCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_vqziOSuCEfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;/Users/gamesupa/Free/talend job/data/input/&quot;" internalId="_vqziOiuCEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_vqziOiuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_vqziOyuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_vqziPCuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_vqziPSuCEfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_KZKzciuJEfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="tmp" prompt="tmp?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="/tmp/" internalId="_tDHUcSwBEfG_eP-dMEt4VA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Dev">
     <contextParameter comment="" name="batch_id_format" prompt="batch_id_format?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMddHHmmss" internalId="_ubymUCv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="commit_size" prompt="commit_size?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="5000" internalId="_ubymUSv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="error_threshold" prompt="error_threshold?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_Integer" value="50" internalId="_ubymUiv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_t76RACt6EfG_eP-dMEt4VA" type="id_String" value="J_PARENT_DAILY_LOAD" internalId="_ubymUyv7EfG_eP-dMEt4VA"/>
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="&quot;https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/&quot;" internalId="_ubymVCv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="https://pkurmqphbwpwsmonhqtq.supabase.co/storage/v1/object/public/talend_data/data/input/" internalId="_ubymVCv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="customers_file" prompt="customers_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="customers.csv" internalId="_ubymVSv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="products_file" prompt="products_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="products.csv" internalId="_ubymViv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_prefix" prompt="sales_file_prefix?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_" internalId="_ubymVyv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file_date_format" prompt="sales_file_date_format?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="yyyyMMdd" internalId="_ubymWCv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="file_encoding" prompt="file_encoding?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="UTF-8" internalId="_ubymWSv7EfG_eP-dMEt4VA"/>
     <contextParameter comment="" name="sales_file" prompt="sales_file?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="sales_20260324.txt" internalId="_ubymWiv7EfG_eP-dMEt4VA"/>
+    <contextParameter comment="" name="tmp" prompt="tmp?" promptNeeded="false" repositoryContextId="_e4hKUCt6EfG_eP-dMEt4VA" type="id_String" value="/tmp/" internalId="_tDHUciwBEfG_eP-dMEt4VA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -137,14 +140,14 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_KHeyUChvEfG_eP-dMEt4VA - metadata" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.input_dir + context.products_file"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.tmp + context.products_file "/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -200,7 +203,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="240" posY="120">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="360" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -240,7 +243,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_6Ej90CepEfGzA9GAt26L9A" show="false"/>
@@ -327,7 +330,7 @@
       <additionalProperties key="Comment" value="Product reference data loaded by J_LOAD_PRODUCTS"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="120">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -365,6 +368,51 @@
       <additionalProperties key="Comment" value="Product reference data loaded by J_LOAD_PRODUCTS"/>
     </metadata>
   </node>
+  <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="200" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROTO" value="https"/>
+    <elementParameter field="CHECK" name="POST" value="false"/>
+    <elementParameter field="TEXT" name="URI" value="context.input_dir + context.products_file"/>
+    <elementParameter field="CHECK" name="USE_CACHE" value="false"/>
+    <elementParameter field="TEXT" name="SMB_URI" value="&quot;smb://host/dir/remoteFileName.txt&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.tmp"/>
+    <elementParameter field="CHECK" name="MAKEDIRS" value="false"/>
+    <elementParameter field="TEXT" name="FILENAME" value="context.products_file"/>
+    <elementParameter field="CHECK" name="ADD_HEADER" value="false"/>
+    <elementParameter field="TABLE" name="HEADERS" show="false"/>
+    <elementParameter field="TEXT" name="SMB_DOMAIN" value="&quot;domain&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SMB_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SMB_PASSWORD" value="enc:system.encryption.key.v1:EFaA22GOgMelIl2xGTCWtabhP9lgBtzMQ5s2cwc0YZZIh2Mg52I=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TABLE" name="COMMON_PARAMS" show="false"/>
+    <elementParameter field="CHECK" name="READ_COOKIE" value="false"/>
+    <elementParameter field="CHECK" name="SAVE_COOKIE" value="false"/>
+    <elementParameter field="FILE" name="COOKIE_DIR" value="&quot;C::/cookie&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="COOKIE_POLICY" value="DEFAULT" show="false"/>
+    <elementParameter field="CHECK" name="SINGLE_COOKIE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENCODE_URI" value="false"/>
+    <elementParameter field="OPENED_LIST" name="COMMON_PARAMS_CHARSET" value="&quot;UTF-8&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT" value="false"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="30000"/>
+    <elementParameter field="CHECK" name="UPLOAD" value="false" show="false"/>
+    <elementParameter field="TABLE" name="FILE_PARAMS" show="false"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="&quot;8080&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:gwoLz/Y8dBC9+DzuwhXSBwH9CgOmNl7Z8IUEptFZ" show="false"/>
+    <elementParameter field="CHECK" name="PROXY_NTLM" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_DOMAIN" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:0g/YuA2f6QJf/udN1Wy4T651fUHW86iD6A+wY5cIGYAqrSB2AcE=" show="false"/>
+    <elementParameter field="CHECK" name="REDIRECT" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_302_AS_303" value="false" show="false"/>
+    <elementParameter field="CHECK" name="TRUST_ALL_SERVER" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Read Supabase"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileFetch_1"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
@@ -377,8 +425,16 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileFetch_1" offsetLabelX="0" offsetLabelY="0" source="tFileFetch_1" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
   </subjob>

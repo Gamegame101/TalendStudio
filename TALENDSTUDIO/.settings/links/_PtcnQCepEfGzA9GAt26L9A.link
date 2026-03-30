@@ -1,23 +1,23 @@
 {
   "itemId" : "_PtcnQCepEfGzA9GAt26L9A",
   "contextList" : [ {
-    "contextName" : "Default",
+    "contextName" : "Prod",
     "repoId" : "_t76RACt6EfG_eP-dMEt4VA",
     "parameterList" : [ {
-      "id" : "_t8ITcit6EfG_eP-dMEt4VA",
+      "id" : "_t8ITdyt6EfG_eP-dMEt4VA",
       "name" : "batch_id_format"
     }, {
-      "id" : "_t8ITdCt6EfG_eP-dMEt4VA",
+      "id" : "_t8ITeSt6EfG_eP-dMEt4VA",
       "name" : "commit_size"
     }, {
-      "id" : "_t8ITcyt6EfG_eP-dMEt4VA",
+      "id" : "_t8ITeCt6EfG_eP-dMEt4VA",
       "name" : "error_threshold"
     }, {
-      "id" : "_t8ITcSt6EfG_eP-dMEt4VA",
+      "id" : "_t8ITdit6EfG_eP-dMEt4VA",
       "name" : "job_name"
     } ]
   }, {
-    "contextName" : "Default",
+    "contextName" : "Prod",
     "repoId" : "_e4hKUCt6EfG_eP-dMEt4VA",
     "parameterList" : [ {
       "id" : "_uchmIiv7EfG_eP-dMEt4VA",
@@ -40,23 +40,14 @@
     }, {
       "id" : "_uchmJyv7EfG_eP-dMEt4VA",
       "name" : "sales_file"
+    }, {
+      "id" : "_4jVEwCwAEfG_eP-dMEt4VA",
+      "name" : "tmp"
     } ]
   }, {
     "contextName" : "Dev",
     "repoId" : "_t76RACt6EfG_eP-dMEt4VA",
     "parameterList" : [ {
-      "id" : "_t8ITcit6EfG_eP-dMEt4VA",
-      "name" : "batch_id_format"
-    }, {
-      "id" : "_t8ITdCt6EfG_eP-dMEt4VA",
-      "name" : "commit_size"
-    }, {
-      "id" : "_t8ITcyt6EfG_eP-dMEt4VA",
-      "name" : "error_threshold"
-    }, {
-      "id" : "_t8ITcSt6EfG_eP-dMEt4VA",
-      "name" : "job_name"
-    }, {
       "id" : "_t8ITcit6EfG_eP-dMEt4VA",
       "name" : "batch_id_format"
     }, {
@@ -94,26 +85,8 @@
       "id" : "_uchmLyv7EfG_eP-dMEt4VA",
       "name" : "sales_file"
     }, {
-      "id" : "_uchmKSv7EfG_eP-dMEt4VA",
-      "name" : "input_dir"
-    }, {
-      "id" : "_uchmKiv7EfG_eP-dMEt4VA",
-      "name" : "customers_file"
-    }, {
-      "id" : "_uchmKyv7EfG_eP-dMEt4VA",
-      "name" : "products_file"
-    }, {
-      "id" : "_uchmLCv7EfG_eP-dMEt4VA",
-      "name" : "sales_file_prefix"
-    }, {
-      "id" : "_uchmLSv7EfG_eP-dMEt4VA",
-      "name" : "sales_file_date_format"
-    }, {
-      "id" : "_uchmLiv7EfG_eP-dMEt4VA",
-      "name" : "file_encoding"
-    }, {
-      "id" : "_uchmLyv7EfG_eP-dMEt4VA",
-      "name" : "sales_file"
+      "id" : "_4jVEwSwAEfG_eP-dMEt4VA",
+      "name" : "tmp"
     } ]
   } ]
 }
