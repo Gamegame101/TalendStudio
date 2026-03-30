@@ -247,9 +247,6 @@
       <column comment="" defaultValue="nextval('talend.fact_sales_sale_id_seq'::regclass)" key="true" length="10" name="sale_id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="source_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="200" name="customer_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -304,11 +301,10 @@
       <additionalProperties key="Comment" value="All validation failures from ETL jobs with error details"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="fact_sales" expressionFilter="row1.CustomerName != null &amp;&amp; !row1.CustomerName.trim().isEmpty() &amp;&amp; lookupProducts.product_name != null" activateExpressionFilter="true">
-        <mapperTableEntries name="sale_id" expression="Numeric.sequence(&quot;cust_seq&quot;, 1, 1)" type="id_Integer"/>
-        <mapperTableEntries name="source_id" expression="row1.id " type="id_Integer"/>
+        <mapperTableEntries name="sale_id" expression="row1.id " type="id_Integer"/>
         <mapperTableEntries name="customer_name" expression="StringHandling.TRIM(row1.CustomerName)" type="id_String"/>
         <mapperTableEntries name="customer_address" expression="row1.CustomerAddress" type="id_String" nullable="true"/>
         <mapperTableEntries name="state_code" expression="StringHandling.UPCASE(row1.stateCode)" type="id_String"/>
@@ -319,7 +315,7 @@
         <mapperTableEntries name="etl_load_ts" expression="TalendDate.getCurrentDate()" type="id_Date"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="etl_errors" expressionFilter="row1.CustomerName == null || row1.CustomerName.trim().isEmpty()" activateExpressionFilter="true" activateCondensedTool="true" reject="true" rejectInnerJoin="true">
-        <mapperTableEntries name="error_id" expression="Numeric.sequence(&quot;cust_seq&quot;, 1, 1)" type="id_Integer"/>
+        <mapperTableEntries name="error_id" expression="" type="id_Integer"/>
         <mapperTableEntries name="source_job" expression="&quot;J_LOAD_SALES&quot;" type="id_String"/>
         <mapperTableEntries name="error_type" expression="&quot;Missing required field: First name&quot;" type="id_String"/>
         <mapperTableEntries name="error_message" expression="&quot;Missing required field: Customer name&quot;" type="id_String"/>
@@ -439,51 +435,46 @@
       <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
       <elementValue elementRef="UPDATABLE" value="true" id="3"/>
       <elementValue elementRef="INSERTABLE" value="true" id="4"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="source_id" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_name" id="5"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
       <elementValue elementRef="UPDATABLE" value="true" id="8"/>
       <elementValue elementRef="INSERTABLE" value="true" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="customer_name" id="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_address" id="10"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="11"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="12"/>
       <elementValue elementRef="UPDATABLE" value="true" id="13"/>
       <elementValue elementRef="INSERTABLE" value="true" id="14"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="customer_address" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state_code" id="15"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="16"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="17"/>
       <elementValue elementRef="UPDATABLE" value="true" id="18"/>
       <elementValue elementRef="INSERTABLE" value="true" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="state_code" id="20"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="product_id" id="20"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="21"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="22"/>
       <elementValue elementRef="UPDATABLE" value="true" id="23"/>
       <elementValue elementRef="INSERTABLE" value="true" id="24"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="product_id" id="25"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="product_name" id="25"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="26"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="27"/>
       <elementValue elementRef="UPDATABLE" value="true" id="28"/>
       <elementValue elementRef="INSERTABLE" value="true" id="29"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="product_name" id="30"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="register_time" id="30"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="31"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="32"/>
       <elementValue elementRef="UPDATABLE" value="true" id="33"/>
       <elementValue elementRef="INSERTABLE" value="true" id="34"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="register_time" id="35"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="amount" id="35"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="36"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="37"/>
       <elementValue elementRef="UPDATABLE" value="true" id="38"/>
       <elementValue elementRef="INSERTABLE" value="true" id="39"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="amount" id="40"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="etl_load_ts" id="40"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="41"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="42"/>
       <elementValue elementRef="UPDATABLE" value="true" id="43"/>
       <elementValue elementRef="INSERTABLE" value="true" id="44"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="etl_load_ts" id="45"/>
-      <elementValue elementRef="UPDATE_KEY" value="false" id="46"/>
-      <elementValue elementRef="DELETE_KEY" value="false" id="47"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="48"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="49"/>
     </elementParameter>
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
@@ -496,9 +487,6 @@
       <column comment="" defaultValue="nextval('talend.fact_sales_sale_id_seq'::regclass)" key="true" length="10" name="sale_id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="source_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="200" name="customer_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -517,7 +505,7 @@
       <column comment="" key="false" length="29" name="register_time" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="12" name="amount" nullable="false" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" defaultValue="" key="false" length="12" name="amount" nullable="false" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_ts" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
@@ -529,9 +517,6 @@
       <column comment="" defaultValue="nextval('talend.fact_sales_sale_id_seq'::regclass)" key="true" length="10" name="sale_id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="source_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="200" name="customer_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -550,7 +535,7 @@
       <column comment="" key="false" length="29" name="register_time" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="12" name="amount" nullable="false" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" defaultValue="" key="false" length="12" name="amount" nullable="false" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_ts" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
@@ -561,7 +546,7 @@
       <additionalProperties key="Comment" value="Validated sales transactions enriched with customer+product info"/>
     </metadata>
   </node>
-  <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="200" sizeX="41" sizeY="40">
+  <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="200" sizeX="41" sizeY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6Ej90CepEfGzA9GAt26L9A - agg_sales_by_state" show="false"/>
@@ -836,7 +821,7 @@
       <additionalProperties key="Comment" value="Aggregated sales summary by state from tAggregateRow"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="agg_sales_by_state">
         <mapperTableEntries name="state_code" expression="row2.state_code" type="id_String"/>
@@ -852,7 +837,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="680" posY="200">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_6Ej90CepEfGzA9GAt26L9A" show="false"/>
